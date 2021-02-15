@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700">
+
+    <LinearLayout
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="B Activity" />
+
+        <Button
+            android:id="@+id/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Main Activity" />
+
+        <Button
+            android:id="@+id/singleTaskWithAffinityButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Single Task With Affinity" />
+
+        <Button
+            android:id="@+id/singleTaskWithoutAffinityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Single Task Without Affinity" />
+
+        <Button
+            android:id="@+id/AActvityButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="A Activity" />
+
+        <Button
+            android:id="@+id/BActivityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="B Activity" />
+
+        <Button
+            android:id="@+id/CActivityButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="C Activity" />
+
+        <Button
+            android:id="@+id/DActivityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="D Activity" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
